@@ -1,0 +1,48 @@
+/*TYPOGRAPHY*/
+$font-size-h1: 52px;
+  $line-height-h1: 1.05;
+
+$font-size-h2: 35px;
+  $line-height-h2: 1.17;
+
+$font-size-h3: 22px;
+  $line-height-h3: 1;
+
+$font-size-h4: 22px;
+  $line-height-h4: 1;
+
+$font-size-h5: 19px;
+  $line-height-h5: 1;
+
+$font-size-p: 16px;
+  $line-height-p: 1.625;
+
+
+/*FONT COLORS*/
+$default-dark-color: #082135;
+$dark-blue: #081D42;
+$medium-blue: #0D3359;
+$light-blue: #103D64;
+$lightest-blue: #E4ECF3;
+$link-color: #B8953B;
+
+
+/* Background Fade */
+.fade .content { background: rgba(5,58,102,0.6); } /*default*/
+.fade-1 .content { background: rgba(5,58,102,0.1); }
+.fade-2 .content { background: rgba(5,58,102,0.2); }
+.fade-3 .content { background: rgba(5,58,102,0.3); }
+.fade-4 .content { background: rgba(5,58,102,0.4); }
+.fade-5 .content { background: rgba(5,58,102,0.5); }
+.fade-6 .content { background: rgba(5,58,102,0.6); }
+.fade-7 .content { background: rgba(5,58,102,0.7); }
+.fade-8 .content { background: rgba(5,58,102,0.8); }
+.fade-9 .content { background: rgba(5,58,102,0.9); }
+
+
+/*RED*/
+@include generateColors("red", #D0021B);
+@include generateColors("darkBlue", #081D42);
+@include generateColors("mediumBlue", #0D3359);
+@include generateColors("lightBlue", #103D64);
+@include generateColors("lightestBlue", #E4ECF3);

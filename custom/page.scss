@@ -1,0 +1,42 @@
+.page {
+  padding-top: 120px;
+
+  &__title {
+    padding: 5rem;
+
+    h2 {
+      color: $medium-blue;
+      letter-spacing: 0 !important;
+      margin: 0;
+    }
+  }
+
+  &__content {
+    a {
+      color: $link-color;
+      border-bottom: 1px solid;
+      &:hover {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+
+
+.pad {
+
+	&.shadow-light {
+		box-shadow: 0 15px 34px rgba(0, 0, 0, 0.1), 0 5px 20px rgba(0, 0, 0, 0.07), 0 0px 1px rgba(0, 0, 0, 0.12);
+  }
+
+}
+
+@include media($tablet, max){
+	.grid:not(.later) > [class*='col-'] .pad {
+		 padding: 10% !important;
+	}
+}
+.human {
+  display: none;
+}

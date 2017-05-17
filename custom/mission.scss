@@ -1,0 +1,62 @@
+.slide {
+  &.mission {
+    overflow: visible !important;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, #081D42),
+      color-stop(0.3, #081D42),
+      color-stop(0.31, #FFFFFF),
+      color-stop(1, #FFFFFF)
+    );
+    background-image: -o-linear-gradient(bottom, #ffffff 0%, #ffffff 70%, #081D42 71%, #081D42 100%);
+    background-image: -moz-linear-gradient(bottom, #ffffff 0%, #ffffff 70%, #081D42 71%, #081D42 100%);
+    background-image: -webkit-linear-gradient(bottom, #ffffff 0%, #ffffff 70%, #081D42 71%, #081D42 100%);
+    background-image: -ms-linear-gradient(bottom, #ffffff 0%, #ffffff 70%, #081D42 71%, #081D42 100%);
+    background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 70%, #081D42 71%, #081D42 100%);
+    .content {
+      overflow: visible !important;
+      .wrap {
+        overflow: visible !important;
+      }
+    }
+  }
+}
+
+.mission-vision {
+  background-color: #fff;
+  margin-top: -30rem;
+
+  .col-6-12 {
+    p {
+      padding: 5rem;
+      padding-bottom: 15rem;
+      padding-top: 15rem;
+    }
+  }
+
+  a {
+    @include media($phablet, min) {
+      color: #fff !important;
+    }
+  }
+}
+
+.about-us {
+  @include media($phablet, min) {
+    background: url('/assets/img/bg-about-us.png') right center no-repeat;
+    background-size: 50%;
+    min-height: 320px;  
+  }
+  
+}
+.grid.services-training {  
+  @include media($phablet, min) {
+    background: url('/assets/img/bg-services-training.png') left center no-repeat;
+    margin-top: 0;
+    height: auto;
+    background-size: 50%;
+    min-height: 320px;
+  }
+}

@@ -1,0 +1,52 @@
+/*  
+                                           
+   _____ _       _              _____  _____ _____ 
+  / ___/| (•)   | |           / ____// ____/ ____/  v 3.0.4
+ | (___ | |_  __| | ___ ____ | |    | (___| (___  
+  \___ \| | |/ _` |/ _ / __/ | |     \___ \ ___ \ 
+  ____) | | | (_| |  __\__ \ | |____ ____) |___) |
+ /_____/|_|_|\__,_|\___/___/  \_____/_____/_____/                               
+                                            
+                                            
+This file contains styles required for the proper functionality and display
+of your Slides Project.
+
+https://designmodo.com/slides/ 
+
+*/
+
+/*CSS RESET*/
+@import 'reset';
+
+/*MIXNIS*/
+@import 'mixins';
+
+/*VARIABLES*/
+@import 'variables';
+
+/*COLORS*/
+@import 'colors';
+
+/*OVERRIDES*/
+@import '../custom/variables_overrides';
+
+/*FRAMEWORK*/
+@import 'framework';
+
+/*TYPOGRAPHY*/
+@import 'typography';
+
+/*FLEX GRID*/
+@import 'flex';
+
+/*DIALOG WINDOW*/
+@import 'dialog';
+
+/*SLIDES LAYOUT*/
+@import 'layout';
+
+/*USEFUL CLASSES*/
+@import 'useful-classes';
+
+/*CUSTOM CLASSES*/
+@import '../custom/custom';

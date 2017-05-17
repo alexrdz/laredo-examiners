@@ -1,0 +1,30 @@
+.service {
+  p {
+    opacity: 1;
+  }
+  a {
+    background-color: $lightest-blue;
+    display: block;
+    padding: 8rem 3rem;
+    @include media($phablet, min) {
+      min-height: 220px;
+    }
+
+    &:hover {
+      background-color: $dark-blue;
+      box-shadow: 0 15px 34px rgba(0, 0, 0, 0.4), 0 5px 20px rgba(0, 0, 0, 0.07), 0 0px 1px rgba(0, 0, 0, 0.12);
+      color: $lightest-blue;
+      opacity: 1;
+    }
+  }  
+}
+
+.services__items {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    margin-bottom: 4rem;
+  }
+}
+

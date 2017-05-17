@@ -1,0 +1,17 @@
+.mobile-logo {
+   @include media($phablet, min) {
+      display: none;
+    }
+}
+
+nav.panel.top.main-nav {
+  .menu {
+    li {
+      font-size: 14px;
+      letter-spacing: 0;
+      a {
+        color: #A4D2FF;
+      }
+    }
+  }
+}

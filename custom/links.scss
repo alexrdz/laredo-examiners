@@ -1,0 +1,23 @@
+.links__title {
+  background: $medium-blue;
+  color: #fff;
+  padding: 5rem;
+
+  h2 {
+    margin: 0;
+  }
+}
+
+
+.links {
+  .background {
+    background-color: $light-blue;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+    }
+  }
+}
